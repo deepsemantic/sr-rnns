@@ -1,0 +1,25 @@
+digraph G {
+	rankdir=LR size="8,5"
+	node [color=gray80 shape=doublecircle style=filled]
+	30
+	node [color=gray80 shape=doublecircle style=filled]
+	19
+	node [color=gray80 shape=doublecircle style=filled]
+	11
+	node [color=gray80 shape=doublecircle style=filled]
+	45
+	node [color=gray80 shape=circle style=filled]
+	43
+	node [color=black shape=point]
+	"" -> 30 [label="" color=black]
+	30 -> 30 [label=0]
+	30 -> 19 [label=1]
+	19 -> 11 [label=0]
+	19 -> 19 [label=1]
+	11 -> 11 [label=0]
+	11 -> 45 [label=1]
+	45 -> 43 [label=0]
+	45 -> 45 [label=1]
+	43 -> 43 [label=0]
+	43 -> 43 [label=1]
+}

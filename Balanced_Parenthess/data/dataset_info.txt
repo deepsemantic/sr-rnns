@@ -1,0 +1,7 @@
+generate valid 247 samples  positive: 136 negative: 111
+generate train 1094 samples  positive: 634 negative: 460
+generate valid 278 samples  positive: 145 negative: 133
+generated train 1033 samples  positive: 608 negative: 425
+generated valid 269 samples  positive: 149 negative: 120
+generated train 1035 samples  positive: 614 negative: 421
+generated valid 243 samples  positive: 129 negative: 114
