@@ -1,4 +1,3 @@
-# State-Regularized Recurrent Neural Networks
 The code for the ICML 2019 paper State-Regularized Recurrent Neural Networks (http://proceedings.mlr.press/v97/wang19j.html)
 
 # Usage and Examples  
