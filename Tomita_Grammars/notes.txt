@@ -1,7 +1,0 @@
-tomita_1 curr=10, 0.001, decay=0.0001, centorid=50
-tomita_2 curr=10, 0.001, decay=0.0001, centorid=50
-tomita_3 curr=10, 0.01,  decay=0.0001, centorid=50
-tomita_4 curr=10, 0.001, decay=0.0001, centorid=50
-tomita_7 curr=10, 0.001, decay=0.0001, centorid=50
-
-
