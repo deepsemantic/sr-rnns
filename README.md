@@ -1,7 +1,7 @@
 # SR-RNNs
 The code for the ICML 2019 paper State-Regularized Recurrent Neural Networks (http://proceedings.mlr.press/v97/wang19j.html)
 
-<img src="https://github.com/deepsemantic/sr-rnns/blob/master/SR-RNNs.png" algin="middle"  width="600" >
+<img src="https://github.com/deepsemantic/sr-rnns/blob/master/SR-RNNs.png" algin="middle"  width="800" >
 
 # Usage and Examples  
    ## 1. SR-GRU on Tomita Grammar
