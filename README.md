@@ -4,23 +4,23 @@ The code for the ICML 2019 paper State-Regularized Recurrent Neural Networks (ht
 <img src="https://github.com/deepsemantic/sr-rnns/blob/master/SR-RNNs.png" algin="middle"  width="800" >
 
 # Usage and Examples  
-   ## 1. SR-GRU on Tomita Grammar
+   ## 1. SR-GRU on Tomita grammars
    
-   a. To train model, please run: THEANO_FLAGS=mode=FAST_RUN,device=cuda3,floatX=float32 python SR_GRU.py  --tomita_grammar=n. The n is the grammar types (n=1,2,3,4,7) (You can also run SR_GRU_temperature.py, it is a similar implementation but the temperature parameter is considered.)
+   a. To train a model, please run: THEANO_FLAGS=mode=FAST_RUN,device=cuda3,floatX=float32 python SR_GRU.py  --tomita_grammar=n. The parameter n indicates the grammar number (n=1,2,3,4,7) (You can also run SR_GRU_temperature.py, it is a similar implementation but the temperature parameter is taken into account.)
    
-   b. To extract DFA with pre-trained model: THEANO_FLAGS=mode=FAST_RUN,device=cuda3,floatX=float32 python DFA_Extractor.py --tomita_grammar=n
+   b. To extract the DFA for a pre-trained model run: THEANO_FLAGS=mode=FAST_RUN,device=cuda3,floatX=float32 python DFA_Extractor.py --tomita_grammar=n
    
-   c. In "DFAs" folder, you can find the extracted DFA.
+   c. In the "DFAs" folder, you can find the extracted DFA.
    
    We used the code from [1] to generate train and valid dataset.
    
-   ## 2. SR-LSTM-P on Balanced Parenthess 
+   ## 2. SR-LSTM-P on Balanced Parentheses (BP)
    
-   a. Use "BP_Generator.py" to generated train and valid dataset
+   a. Use "BP_Generator.py" to generated the train and validation datasets
    
-   b. To train model, please run: THEANO_FLAGS=mode=FAST_RUN,device=cuda3,floatX=float32 python SR_LSTM_P.py
+   b. To train a model, please run: THEANO_FLAGS=mode=FAST_RUN,device=cuda3,floatX=float32 python SR_LSTM_P.py
    
-   c. The trained model will be saved in "models" folder
+   c. The trained model will be saved in the "models" folder
    
    d. Run "SR_LSTM_P_inference.py" at inference stage, it calls "plot_transition.py" to plot the state transitions
 
