@@ -27,7 +27,7 @@ The code for the ICML 2019 paper State-Regularized Recurrent Neural Networks (ht
 [1] Weiss, Gail, Yoav Goldberg, and Eran Yahav. "Extracting automata from recurrent neural networks using queries and counterexamples." arXiv preprint arXiv:1711.09576 (2017).      
 
 # Citation
-Please cite in your publications if it helps your research:  
+Please cite in your publications if it helps your research:   
         @InProceedings{pmlr-v97-wang19j,  
           title = 	 {State-Regularized Recurrent Neural Networks},  
           author = 	 {Wang, Cheng and Niepert, Mathias},  
